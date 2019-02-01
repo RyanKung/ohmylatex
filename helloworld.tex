@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage{cite}
+\author{Ryan J. Kung \\ryankung@ieee.org}
+\title{The Group Theory}
+\begin{document}
+\maketitle
+\section{Group}
+\subsection{Definition}
+Definition: Group\cite{Cardelli:1996:TS:234313.234418}:
+
+A set $\mathbb{G}={a, b, c, ...}$ is called a group, if tehere exists a group multipliaction connecting the elements in $\mathbb{G}$ in the following way:
+
+(1) $a, b \in \mathbb{G}:\ c=a b \in \mathbb{G}$ (closure)
+
+(2) $a, b, c \in \mathbb{G}: (ab)c=a(bc)$ (associativity)
+
+(3) $\exists e \in \mathbb{G}: ae=e, \forall a \in \mathbb{G}$ (identity / neutral element)
+
+(4) $\forall a \in \mathbb{G}, \exists b \in \mathbb{G}: ab=e, i.e., b\equiv a^{-1}$
+
+\subsection{Pubic-key cryptography}
+``The mathematics of public-key cryptography uses a lot of group theory. Different cryptosystems use different groups, such as the group of units in modular arithmetic and the group of rational points on elliptic curves over a finite field. This use of group theory derives not from the "symmetry" perspective, but from the efficiency or difficulty of carrying out certain computations in the groups. Other public-key cryptosystems use other algebraic structures, such as lattices.''' \cite{Cardelli:1996:TS:234313.234418}
+\bibliographystyle{unsrt}
+\bibliography{./cites}
+\end{document}
